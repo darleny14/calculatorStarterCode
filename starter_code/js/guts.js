@@ -31,20 +31,25 @@ console.log(add(x,y));
 
 function power(x,y)
 {
-	
+	return Math.pow(x,y);
 }
+console.log(power(x,y));
 
 function square_root(x)
 {
+	return Math.sqrt(x);
 	
 }
+console.log(square_root(x));
 
 function logBase10(x)
 {
-	
+	return Math.log10(x);
 }
+console.log(logBase10(x));
 
 function generateRandomNumber()
 {
-	
+	return Math.random();
 }
+console.log(generateRandomNumber());
